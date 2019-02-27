@@ -27,15 +27,6 @@ public class Course implements Serializable {
 	public  String courseLocation;
 	public ArrayList<String> studentCourses;
 	
-//	public Course(String courseName, String courseID, int maxStudents, int enrolledStudents, String courseInstructor, int courseSection, String courseLocation) {
-//		this.courseName = courseName;
-//		this.courseID = courseID;
-//		this.maxStudents = maxStudents;
-//		this.enrolledStudents = enrolledStudents;
-//		this.courseInstructor = courseInstructor;
-//		this.courseSection = courseSection;
-//		this.courseLocation = courseLocation;
-//	}
 	
 	public Course(String courseName, String courseID, Integer maxStudents, Integer enrolledStudents, 
 			ArrayList<String> students, String courseInstructor, Integer courseSection, String courseLocation) {
