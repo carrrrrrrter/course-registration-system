@@ -84,8 +84,6 @@ public class crsMain implements Serializable {
 			
 			Scanner firstTimeLog = new Scanner(System.in);
 			Scanner choice2 = new Scanner(System.in);
-//			System.out.print("Is this the first time logging in? ");
-//			String firstLog = choice2.nextLine();
 			System.out.print("Enter your First Name: ");
 			String firstName = firstTimeLog.nextLine();
 			System.out.print("Enter your Last Name: ");
@@ -113,25 +111,7 @@ public class crsMain implements Serializable {
 //				System.out.println("New username and password set.");
 				studentSelection();
 //			}
-			
-			
-//			if (firstLog.equals("No") || firstLog.equals("no")) {
-//
-//				for (int i = 0; i<crsData.students.size(); i++) {
-//					Student studentIndex = crsData.students.get(i);
-//					System.out.println("Username: ");
-//					String username = input2.nextLine();
-//					
-//					System.out.println("Password: ");
-//					String password = input2.nextLine();
-//					if (crsData.students.contains(username) && crsData.students.contains(password)) {
-//						studentSelection();
-//					}
-//				}
-//			}
-				
-				
-			//else System.out.println("Invalid User");			
+					
 		}
 		if (choice == 3) {
 			Serialization.studentSerialization();
